@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador birras</title>
+    <link rel="stylesheet" href="../styles/estiloProgres.css">
+</head>
+<body>
+    <header class="header">
+        <div> Cabeza </div>
+    </header>
+    <div class="container">
+        <div class="info">
+            <h1>Historial de alcoholemia: </h1>
+            <h3>Nombre: </h3>
+            <h3>Litros totales: </h3>
+            <h3>Récord diario: </h3>
+            <h3>Récord semanal: </h3>
+            <h3>Récord mensual: </h3>
+        </div>
+        <div class="beer-bottle">
+            <img src="../img/progreso1.png" alt="Botella">
+            <div class="beer-progress" id="progress">
+            </div>
+        </div>
+        <div class="buttons">
+            <h1>Marca tu bebida:</h1>
+            <div data-value="0.2">Quinto</div>
+            <div data-value="0.33">Tercio</div>
+            <div data-value="0.5">Jarra</div>
+            <div data-value="1">Litro</div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>Final</div>
+    </footer>
+
+    <script src="../scripts/progres.js"></script>
+</body>
+</html>
